@@ -26,3 +26,6 @@ The .py file starts with many functions utilized for transforming inputs to make
 
 
 # Streamlit App
+The last part of the project was creating the user interface(UI) with Streamlit. The UI consists of dropdown menus and number inputs, and other basic input-output operations to display the predicted home value.
+
+# Thank you
