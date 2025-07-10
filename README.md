@@ -16,4 +16,11 @@ The XGBoost Model is built on top of the Gradient Boost Model algorithm, which u
 # XGBoost Model
 ![Image](https://github.com/user-attachments/assets/0bec33a3-ca15-4432-b736-64311a4d7db1)
 
-XGBoosting is an incredibly powerful machine learning algorithm built on gradient boosting, as stated earlier, with other optimization techniques. So, the XGBoost Model utilizes multiple decision trees 
+XGBoosting is an incredibly powerful machine learning algorithm built on gradient boosting, as stated earlier, with other optimization techniques. The XGBoost Model utilizes both L1 and L2 regularization to prevent overfitting. This helps with large datasets like the sample dataset with tens of thousands of rows. The algorithm also has built-in capabilities to impute and handle missing values aswell as built-in cross validation.
+
+
+# Inference Pipeline
+The .py file starts with many functions utilized for transforming inputs to make predictions. For example, getting the average population, income, and density of a certain area to fill in the input array. Also, creating functions to fill in the dummy variables(Zip Code, City, State, County) based on matches. 
+
+
+# Streamlit App
