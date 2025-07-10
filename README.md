@@ -1,7 +1,7 @@
 # House-Price-Prediction-App-with-XGBoosting-and-Streamlit
 **App Link**: https://house-price-prediction-app-with-xgboosting-and-app-67y4ulhrykv.streamlit.app/
 
-<img width="1720" height="920" alt="Image" src="https://github.com/user-attachments/assets/9e9c0b28-a18e-43ca-94eb-3d2138d90892" />
+<img width="1420" height="620" alt="Image" src="https://github.com/user-attachments/assets/9e9c0b28-a18e-43ca-94eb-3d2138d90892" />
 
 In this project, I took a sample housing dataset from Kaggle to predict house prices in cities in the United States. This data involved data preprocessing, splitting, training and testing, hyperparameter tuning, and the creation of the app using Streamlit. 
 
