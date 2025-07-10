@@ -6,5 +6,12 @@ In this project, I took a sample housing dataset from Kaggle to predict house pr
 # Model Creation
 The first part of the project was pre-processing the data for model training and testing. Features such as Zip Code, City, State, and County were in categorical form, so one-hot encoding was needed. The next step was reordering the dataset's features to build an inference pipeline that would accurately make predictions. After this, we could split our data to fit it to the XGBoost Model.
 
+
+# Gradient Boosting
+The XGBoost Model is built on top of the Gradient Boost Model algorithm, which uses a process called boosting. This means, results are aggregated throughout the algorithm's process instead of at the end. Each tree used in the algorithm is built on the previous tree's errors, and this gives it the power to learn complex patterns in the data.
+
+
 # XGBoost Model
-XGBoosting is an incredibly powerful machine learning algorithm built on gradient boosting.
+![Image](https://github.com/user-attachments/assets/0bec33a3-ca15-4432-b736-64311a4d7db1)
+
+XGBoosting is an incredibly powerful machine learning algorithm built on gradient boosting, as stated earlier, with other optimization techniques. So, the XGBoost Model utilizes multiple decision trees 
