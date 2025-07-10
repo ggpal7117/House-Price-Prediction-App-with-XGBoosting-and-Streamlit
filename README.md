@@ -8,6 +8,8 @@ The first part of the project was pre-processing the data for model training and
 
 
 # Gradient Boosting
+<img width="617" height="337" alt="Image" src="https://github.com/user-attachments/assets/e6d030ee-a784-4140-8d85-bd2908bf08f6" />
+
 The XGBoost Model is built on top of the Gradient Boost Model algorithm, which uses a process called boosting. This means, results are aggregated throughout the algorithm's process instead of at the end. Each tree used in the algorithm is built on the previous tree's errors, and this gives it the power to learn complex patterns in the data.
 
 
